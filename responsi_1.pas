@@ -5,7 +5,7 @@ var
 	i, j: Integer;
 
 begin
-	// angka 1
+	// ------------------------- angka 1
 	for i := 1 to 5 do
 		begin
 			for j:=1 to 5 do
@@ -18,7 +18,7 @@ begin
 			writeln;
 		end;
 	writeln; // enter
-	// angka 2
+	// ------------------------- angka 2
 	for i:=1 to 5 do
 		begin
 			for j:=1 to 5 do
@@ -40,7 +40,7 @@ begin
 		writeln;
 		end; 
 	writeln; // enter
-	// angka 3
+	// ------------------------- angka 3
 	for i:=1 to 5 do
 		begin
 			for j:=1 to 5 do
@@ -61,7 +61,7 @@ begin
 		writeln;	
 		end;
 	writeln;
-	// angka 4
+	// ------------------------- angka 4
 	for i:=1 to 5 do
 		begin
 			for j := 1 to 5 do
@@ -83,7 +83,7 @@ begin
 		end;
 
 	writeln;
-	// angka 5
+	// ------------------------- angka 5
 	for i:=1 to 5 do
 		begin
 			for j:=1 to 5 do
