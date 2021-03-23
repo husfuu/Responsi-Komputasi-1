@@ -8,34 +8,34 @@ begin
 	// angka 1
 	for i := 1 to 5 do
 		begin
-		for j:=1 to 5 do
-		begin
-			if (j<>3) then  
-			write(' ')
-		else if (j=3) then
-			write('*')
-		end;
-		writeln;
+			for j:=1 to 5 do
+				begin
+					if (j<>3) then  
+						write(' ')
+				else if (j=3) then
+						write('*')
+				end;
+			writeln;
 		end;
 	writeln; // enter
 	// angka 2
 	for i:=1 to 5 do
 		begin
 			for j:=1 to 5 do
-			begin
-				if i=2 then
-					if j=5 then
-					write('*')
-					else 
-					write(' ')
+				begin
+					if i=2 then
+						if j=5 then
+							write('*')
+						else 
+							write(' ')
 
-				else if i=4 then 
-					if j=1 then
-					write('*')
+					else if i=4 then 
+						if j=1 then
+							write('*')
+						else 
+							write(' ')
 					else 
-					write(' ')
-				else 
-					write('*')
+						write('*')
 			end;
 		writeln;
 		end; 
@@ -47,16 +47,16 @@ begin
 				begin
 					if i=2 then
 						if j=5 then
-						write('*')
+							write('*')
 						else 
-						write(' ')
+							write(' ')
 					else if i=4 then
 						if j=5 then
-						write('*')
+							write('*')
 						else
-						write(' ')
+							write(' ')
 					else
-					write('*');
+						write('*');
 				end;
 		writeln;	
 		end;
@@ -81,7 +81,7 @@ begin
 				end;
 		writeln;
 		end;
-		
+
 	writeln;
 	// angka 5
 	for i:=1 to 5 do
