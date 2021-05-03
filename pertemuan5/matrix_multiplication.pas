@@ -62,7 +62,7 @@ begin
 				matrix3[i,j]:= matrix1[i,k]*matrix2[k,j]+matrix3[i,j]
 			end;
 
-	{tampilin matrix hasil}
+	{menampilkan matrix hasil}
 	writeln('Hasil: ');
 	for i:=1 to row_mat1 do 
 	begin
